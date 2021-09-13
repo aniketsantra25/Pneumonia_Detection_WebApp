@@ -14,8 +14,8 @@ from keras.preprocessing import image
 from tensorflow.keras.preprocessing.image import load_img
 import requests
 
-access_key = 'AKIAU52YSY4E63WGEB7G'
-access_secret = 'ehdxs98gwAVTQYK2OTXBBz6vmYm9tt3DFNhumwVV'
+access_key = 'Enter your Access key'
+access_secret = 'Enter your Secret Key'
 bucket_name = 'pneumonia-predictor'
 
 clien_s3 = boto3.client(
